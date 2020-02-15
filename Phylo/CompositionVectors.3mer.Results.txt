@@ -1,0 +1,5 @@
+0	-nan(ind)	-nan(ind)	-nan(ind)	-nan(ind)	
+-nan(ind)	-nan(ind)	-nan(ind)	-nan(ind)	-1.45682e+144	
+-nan(ind)	-nan(ind)	-nan(ind)	-1.45682e+144	-1.45682e+144	
+-nan(ind)	-nan(ind)	-1.45682e+144	-1.45682e+144	7.11595e-251	
+-nan(ind)	-1.45682e+144	-1.45682e+144	7.11595e-251	3.90531e-306	

@@ -1,0 +1,171 @@
+﻿  main.cpp
+f:\project\phylo\phylo\main.cpp(99): warning C4018: '<': signed/unsigned mismatch
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1655): warning C4503: '__LINE__Var': decorated name length exceeded, name was truncated
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1086): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint<std::pair<const _Kty,_Ty>&,std::_Tree_node<std::pair<const _Kty,_Ty>,void *>*>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>,
+              _Valty=std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>> &,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>,void *> *
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1085): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint<std::pair<const _Kty,_Ty>&,std::_Tree_node<std::pair<const _Kty,_Ty>,void *>*>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>,
+              _Valty=std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>> &,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>,void *> *
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(213): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace_hint<const std::piecewise_construct_t&,std::tuple<const int &>,std::tuple<>>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,const std::piecewise_construct_t &,std::tuple<const int &> &&,std::tuple<> &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(213): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace_hint<const std::piecewise_construct_t&,std::tuple<const int &>,std::tuple<>>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,const std::piecewise_construct_t &,std::tuple<const int &> &&,std::tuple<> &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(229): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::_Try_emplace<const int&,>(_Keyty)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Keyty=const int &
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(229): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::_Try_emplace<const int&,>(_Keyty)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Keyty=const int &
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(338): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::try_emplace<>(const int &)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(338): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::try_emplace<>(const int &)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(337): note: while compiling class template member function 'std::map<int,std::map<std::string,int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::less<_Ty>,std::allocator<std::pair<const int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>> &std::map<int,std::map<int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::less<_Ty>,std::allocator<std::pair<const int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>,std::less<_Ty>,std::allocator<std::pair<const int,std::map<int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::less<_Ty>,std::allocator<std::pair<const int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>>>>::operator [](const int &)'
+          with
+          [
+              _Kty=std::string,
+              _Ty=int
+          ]
+  f:\project\phylo\phylo\main.cpp(196): note: see reference to function template instantiation 'std::map<int,std::map<std::string,int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::less<_Ty>,std::allocator<std::pair<const int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>> &std::map<int,std::map<int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::less<_Ty>,std::allocator<std::pair<const int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>,std::less<_Ty>,std::allocator<std::pair<const int,std::map<int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::less<_Ty>,std::allocator<std::pair<const int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>>>>::operator [](const int &)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=int
+          ]
+  f:\project\phylo\phylo\main.cpp(186): note: see reference to class template instantiation 'std::map<int,std::map<int,std::map<std::string,int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::less<_Ty>,std::allocator<std::pair<const int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>,std::less<_Ty>,std::allocator<std::pair<const int,std::map<int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::less<_Ty>,std::allocator<std::pair<const int,std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>>>>>>>' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=int
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1827): warning C4503: '__LINE__Var': decorated name length exceeded, name was truncated
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1668): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_at<std::pair<const _Kty,_Ty>&,_Nodety>(bool,std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>,void *> *,
+              _Valty=std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>> &
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1667): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_at<std::pair<const _Kty,_Ty>&,_Nodety>(bool,std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>,void *> *,
+              _Valty=std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>> &
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1086): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint<std::pair<const _Kty,_Ty>&,std::_Tree_node<std::pair<const _Kty,_Ty>,void *>*>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>,
+              _Valty=std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>> &,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>,void *> *
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1085): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint<std::pair<const _Kty,_Ty>&,std::_Tree_node<std::pair<const _Kty,_Ty>,void *>*>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>,
+              _Valty=std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>> &,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>,void *> *
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1771): warning C4503: '__LINE__Var': decorated name length exceeded, name was truncated
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1764): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_nohint<std::pair<const _Kty,_Ty>&,_Nodety>(bool,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>,void *> *,
+              _Valty=std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>> &
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1763): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_nohint<std::pair<const _Kty,_Ty>&,_Nodety>(bool,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>,void *> *,
+              _Valty=std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>> &
+          ]
+f:\project\phylo\phylo\main.cpp(247): warning C4503: 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint': decorated name length exceeded, name was truncated
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>
+          ]
+f:\project\phylo\phylo\main.cpp(247): warning C4503: 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_at': decorated name length exceeded, name was truncated
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>
+          ]
+f:\project\phylo\phylo\main.cpp(247): warning C4503: 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_nohint': decorated name length exceeded, name was truncated
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>,std::less<int>,std::allocator<std::pair<const int,std::map<std::string,int,std::less<std::string>,std::allocator<std::pair<const std::string,int>>>>>>>>
+          ]
+  Phylo.vcxproj -> F:\Project\Phylo\Debug\Phylo.exe
+  Phylo.vcxproj -> F:\Project\Phylo\Debug\Phylo.pdb (Partial PDB)

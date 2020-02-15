@@ -1,0 +1,27 @@
+centraal
+XM_026264038.1 Carassius auratus_GoldFish
+XM_007892496.1 Callorhinchus milii_Shark
+XM_006277629.3 Alligator mississippiensis_Alligator
+XM_017416645.2 Kryptolebias marmoratus_mangrove killifish
+XM_013138592.2 Esox lucius_Northern Pike 
+XM_022513153.1 Enhydra lutris_Sea Otter
+XM_007176540.1 Balaenoptera acutorostrata_Dolphin
+(XM_022513153.1 Enhydra lutris_Sea Otter:0.369628,XM_007176540.1 Balaenoptera acutorostrata_Dolphin:0.430786)
+(XM_006277629.3 Alligator mississippiensis_Alligator:0,(XM_022513153.1 Enhydra lutris_Sea Otter:0.369628,XM_007176540.1 Balaenoptera acutorostrata_Dolphin:0.430786):2.1668)
+(XM_026264038.1 Carassius auratus_GoldFish:0.565633,XM_013138592.2 Esox lucius_Northern Pike :0.164376)
+(XM_007892496.1 Callorhinchus milii_Shark:0.285389,XM_017416645.2 Kryptolebias marmoratus_mangrove killifish:0.514104)
+((XM_006277629.3 Alligator mississippiensis_Alligator:0,(XM_022513153.1 Enhydra lutris_Sea Otter:0.369628,XM_007176540.1 Balaenoptera acutorostrata_Dolphin:0.430786):2.1668):0.0134253,(XM_026264038.1 Carassius auratus_GoldFish:0.565633,XM_013138592.2 Esox lucius_Northern Pike :0.164376):0.0302685)
+((XM_007892496.1 Callorhinchus milii_Shark:0.285389,XM_017416645.2 Kryptolebias marmoratus_mangrove killifish:0.514104):0.00779091,((XM_006277629.3 Alligator mississippiensis_Alligator:0,(XM_022513153.1 Enhydra lutris_Sea Otter:0.369628,XM_007176540.1 Balaenoptera acutorostrata_Dolphin:0.430786):2.1668):0.0134253,(XM_026264038.1 Carassius auratus_GoldFish:0.565633,XM_013138592.2 Esox lucius_Northern Pike :0.164376):0.0302685):0.00779091)
+8, 6 => 0.369628
+8, 7 => 0.430786
+9, 3 => 0
+9, 8 => 2.1668
+10, 1 => 0.565633
+10, 5 => 0.164376
+11, 2 => 0.285389
+11, 4 => 0.514104
+12, 9 => 0.0134253
+12, 10 => 0.0302685
+0, 13 => 1
+13, 11 => 0.00779091
+13, 12 => 0.00779091
